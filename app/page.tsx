@@ -159,7 +159,7 @@ export default function Home() {
               <h2 className="text-2xl font-semibold">About Me</h2>
               <div className="space-y-3 text-gray-200 leading-relaxed">
                 <p>
-                I'm a student at the <strong>University of California San Diego </strong> 
+                I&apos;m a student at the <strong>University of California San Diego </strong> 
                 pursuing a <strong>B.S. in Mathematics Computer Science</strong> with minors 
                 in <strong>Data Science</strong> and <strong>Cognitive Science</strong>. 
                 GPA: <strong>4.0/4.0</strong>
