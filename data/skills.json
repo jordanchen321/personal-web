@@ -1,0 +1,8 @@
+{
+  "skills": {
+    "Languages": ["Python", "Java", "HTML", "CSS", "Javascript", "R"],
+    "Frameworks": ["React", "Next.js", "Tailwind"],
+    "Developer Tools": ["Git", "Github", "VS Code", "Jupyter Notebook", "MATLAB"],
+    "Libraries": ["Pandas", "NumPy", "Matplotlib", "Seaborn"]
+  }
+}

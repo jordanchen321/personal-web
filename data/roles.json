@@ -1,0 +1,34 @@
+{
+  "roles": [
+    {
+      "id": 1,
+      "title": "Research Intern",
+      "organization": "Sanford Burnham Prebys",
+      "location": null,
+      "startDate": "January 2026",
+      "endDate": "Present",
+      "isCurrent": true,
+      "description": "Analyzing neuronal spike-train and connectivity data using Python, R, and MATLAB for lab pipelines (spike sorting, spectral analysis, quality-control reporting). Performing MEA electrophysiological recordings (plate preparation, neuronal culture handling, identification of key network activity metrics). Producing a documented analysis module and research report linking computational methods to biological interpretation, and delivering findings in a final presentation."
+    },
+    {
+      "id": 2,
+      "title": "Developer Trainee",
+      "organization": "Meridian",
+      "location": null,
+      "startDate": "November 2025",
+      "endDate": "Present",
+      "isCurrent": true,
+      "description": "Utilizing Meridian developer package to build AI-assisted overview-detail interfaces for dynamic data exploration. Implementing customizable view specifications for user personalization of interface layouts. Developing interactive prototypes showcasing end-user-driven customization for complex information workflows."
+    },
+    {
+      "id": 3,
+      "title": "Founder",
+      "organization": "NGYL",
+      "location": null,
+      "startDate": "January 2022",
+      "endDate": "June 2025",
+      "isCurrent": false,
+      "description": "Creating NGYL website with HTML, CSS, and Javascript to increase organization awareness and volunteer sign-up. Providing a communication platform for organization mission and events. Organizing and inviting 4 industry professionals for a STEM career seminar (200+ participants). Teaching 300+ students in subjects like Python, drones robotics, Lego robotics, and machine learning."
+    }
+  ]
+}

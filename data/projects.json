@@ -1,0 +1,32 @@
+{
+  "projects": [
+    {
+        "id": 1,
+        "title": "Ecommerce Dashboard",
+        "description": "An ecommerce dashboard project that aims to make the functionalities of Excel portable on a mobile device. Built with Next.js frontend, MongoDB backend, and integrated Google Authentication system for secure user access.",
+        "technologies": ["Next.js", "MongoDB", "Google Authentication", "React", "TypeScript"],
+        "links": {
+            "github": "https://github.com/jordanchen321/ecommerce-dashboard",
+            "demo": "https://ecommerce-dashboard-phi-five.vercel.app/",
+            "website": null,
+            "documentation": null
+        },
+        "image": "/images/Ecommerce-dashboard-image.png",
+        "status": "January 2026"
+    }, 
+    {
+        "id": 2,
+        "title": "CrunchyRoll Award Data Analysis",
+        "description": "Collected, cleaned, and wrangled multiple data frames. Analyzed relationships between factors (total views, genre, manga sales). Created a predictive model with data visualization.",
+        "technologies": ["Python", "Pandas", "NumPy", "Matplotlib", "Data Analysis"],
+        "links": {
+            "github": "https://github.com/jordanchen321/CrunchyRoll-Award-Factor-Analysis",
+            "demo": null,
+            "website": null,
+            "documentation": null
+        },
+        "image": "/images/crunchyroll-project-image.png",
+        "status": "September 2025"
+    }
+  ]
+}

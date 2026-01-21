@@ -1,0 +1,20 @@
+{
+  "publications": [
+    {
+      "id": 1,
+      "year": "Conference/Journal Year",
+      "conference": "Conference Name",
+      "title": "Publication Title",
+      "authors": "Author 1, Author 2, Author 3",
+      "description": "Optional description of the publication",
+      "links": {
+        "doi": "#",
+        "paper": "#",
+        "website": "#",
+        "package": null
+      },
+      "image": "/publication-placeholder.jpg",
+      "status": null
+    }
+  ]
+}
