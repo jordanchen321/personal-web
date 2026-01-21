@@ -193,7 +193,7 @@ export default function Home() {
                       <div className="ml-10 space-y-2">
                         <div className="flex flex-wrap items-baseline gap-2">
                           <h3 className="text-xl font-semibold">
-                            <strong>{role.title}</strong>
+                            <strong>{role.organization}</strong>
                           </h3>
                           {role.isCurrent && (
                             <span className="text-xs px-2 py-0.5 bg-green-500/20 text-green-400 rounded">
@@ -203,7 +203,7 @@ export default function Home() {
                         </div>
                         
                         <div className="text-gray-300">
-                          <span className="font-medium">{role.organization}</span>
+                          <span className="font-medium">{role.title}</span>
                           {role.location && (
                             <span className="text-gray-400"> · {role.location}</span>
                           )}
