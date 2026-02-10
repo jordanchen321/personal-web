@@ -1,11 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  // Export static assets for GitHub Pages
+  // Export static assets for GitHub Pages (project site: username.github.io/personal-web/)
   output: "export",
   trailingSlash: true,
+  basePath: "/personal-web",
+  assetPrefix: "/personal-web/",
   images: {
-    // Disable next/image optimization for static export
     unoptimized: true,
   },
 };
