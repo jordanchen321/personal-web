@@ -1,7 +1,21 @@
 {
   "projects": [
-    {
+      {
         "id": 1,
+        "title": "Fluorescent Signal Normalization",
+        "description": "A web app that streamlines analysis of fluorescent signal data from Excel files. It transposes raw plate or well-based layouts into a consistent format, applies normalization, and generates summary statistics and tables ready for direct import into Prism for graphing and further analysis.",
+        "technologies": ["Python", "pandas", "openpyxl", "Node.js", "React"],
+        "links": {
+            "github": "https://github.com/jordanchen321/fluorescent-signal-normalization",
+            "demo": null,
+            "website": null,
+            "documentation": null
+        },
+        "image": "/images/Fluorescent-signal-normalization-image.png",
+        "status": "Feburary 2026"
+    },
+    {
+        "id": 2,
         "title": "Ecommerce Dashboard",
         "description": "An ecommerce dashboard project that aims to make the functionalities of Excel portable on a mobile device. Built with Next.js frontend, MongoDB backend, and integrated Google Authentication system for secure user access.",
         "technologies": ["Next.js", "MongoDB", "Google Authentication", "React", "TypeScript"],
@@ -15,7 +29,7 @@
         "status": "January 2026"
     }, 
     {
-        "id": 2,
+        "id": 3,
         "title": "CrunchyRoll Award Data Analysis",
         "description": "Collected, cleaned, and wrangled multiple data frames. Analyzed relationships between factors (total views, genre, manga sales). Created a predictive model with data visualization.",
         "technologies": ["Python", "Pandas", "NumPy", "Matplotlib", "Data Analysis"],
@@ -27,6 +41,6 @@
         },
         "image": "/images/Crunchyroll-project-image.png",
         "status": "September 2025"
-    }
+      }
   ]
 }
