@@ -1,7 +1,6 @@
 "use client";
 
 import Image from "next/image";
-import publicationsData from "@/data/publications.json";
 import projectsData from "@/data/projects.json";
 import rolesData from "@/data/roles.json";
 import skillsData from "@/data/skills.json";
@@ -23,7 +22,6 @@ const ExternalLinkIcon = () => (
 );
 
 export default function Home() {
-  const { publications } = publicationsData;
   const { projects } = projectsData;
   const { roles } = rolesData;
   const { skills } = skillsData;
@@ -337,108 +335,28 @@ export default function Home() {
               ))}
             </div>
 
-            {/* Publications */}
-            <div className="space-y-8 pt-8 border-t border-gray-800">
-              <h2 className="text-2xl font-semibold">Publications</h2>
+            {/* Research */}
+            <div className="space-y-6 pt-8 border-t border-gray-800">
+              <h2 className="text-2xl font-semibold">Research</h2>
 
-              {publications.map((pub) => (
-                <div key={pub.id} className="space-y-3">
-                  <div className="grid grid-cols-1 md:grid-cols-[300px_1fr] gap-6 items-start">
-                    {/* Publication Image/Diagram */}
-                    <div className="w-full relative h-auto min-h-[180px] rounded-lg overflow-hidden bg-gray-900 border border-gray-800 self-start">
-                      {pub.image ? (
-                        <Image
-                          src={pub.image}
-                          alt={pub.title}
-                          fill
-                          className="object-contain"
-                        />
-                      ) : (
-                        <div className="absolute inset-0 flex items-center justify-center">
-                          <div className="text-center text-gray-500 text-xs p-4">
-                            <svg
-                              className="w-12 h-12 mx-auto mb-2 text-gray-700"
-                              fill="none"
-                              stroke="currentColor"
-                              viewBox="0 0 24 24"
-                            >
-                              <path
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                                strokeWidth={1.5}
-                                d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"
-                              />
-                            </svg>
-                            <p>Add image at /public/publication-placeholder.jpg</p>
-                          </div>
-                        </div>
-                      )}
-                    </div>
-                    {/* Publication Details */}
-                    <div className="space-y-3">
-                      <div className="text-sm text-gray-400">
-                        {pub.conference} {pub.year}
-                      </div>
-                      <h3 className="text-xl font-semibold">
-                        <strong>{pub.title}</strong>
-                      </h3>
-                      <p className="text-gray-300">{pub.authors}</p>
-                      {pub.description && (
-                        <p className="text-gray-200 text-sm italic">{pub.description}</p>
-                      )}
-                      {pub.status && (
-                        <p className="text-gray-400 italic">{pub.status}</p>
-                      )}
-                      <div className="flex flex-wrap gap-4 text-sm">
-                        {pub.links.doi && (
-                          <a
-                            href={pub.links.doi}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="flex items-center gap-1 text-white hover:underline"
-                          >
-                            <span>DOI</span>
-                            <ExternalLinkIcon />
-                          </a>
-                        )}
-                        {pub.links.paper && (
-                          <a
-                            href={pub.links.paper}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="flex items-center gap-1 text-white hover:underline"
-                          >
-                            <span>Paper</span>
-                            <ExternalLinkIcon />
-                          </a>
-                        )}
-                        {pub.links.website && (
-                          <a
-                            href={pub.links.website}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="flex items-center gap-1 text-white hover:underline"
-                          >
-                            <span>Website</span>
-                            <ExternalLinkIcon />
-                          </a>
-                        )}
-                        {pub.links.package && (
-                          <a
-                            href={pub.links.package}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="flex items-center gap-1 text-white hover:underline"
-                          >
-                            <span>Package</span>
-                            <ExternalLinkIcon />
-                          </a>
-                        )}
-                      </div>
-                    </div>
-                  </div>
+              <div className="grid grid-cols-1 md:grid-cols-[300px_1fr] gap-6 items-start">
+                {/* Research Image */}
+                <div className="w-full relative h-auto min-h-[180px] rounded-lg overflow-hidden bg-gray-900 border border-gray-800 self-start">
+                  <Image
+                    src="/images/no-code-EDA-research-image.png"
+                    alt="No code EDA research application"
+                    fill
+                    className="object-contain"
+                  />
                 </div>
-              ))}
+
+                <div className="space-y-3">
+                  <h3 className="text-xl font-semibold text-white">Interactive CSV Data Analysis</h3>
+                  <p className="text-gray-200 leading-relaxed">
+                    An HCI focused web app for exploratory data analysis (EDA) and data transformations on CSV files, with no code required. It emphasizes usability (drag and drop, progressive disclosure, immediate visual feedback), efficiency (one click cleaning, suggested operations, full workflow undo and redo), and error reduction (automatic type detection, missing value highlighting, validation before apply). Tables and plots update live as you clean, transform, and visualize your data.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
