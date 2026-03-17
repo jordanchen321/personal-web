@@ -36,7 +36,7 @@ export default function Home() {
             {/* Profile Picture */}
             <div className="w-full max-w-[240px] mx-auto aspect-square relative rounded-lg overflow-hidden bg-gray-800">
               <Image
-                src="/profile.jpg"
+                src="\images\profile.png"
                 alt="Jordan Chen"
                 fill
                 className="object-cover"
