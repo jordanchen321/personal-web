@@ -1,46 +1,96 @@
 {
   "projects": [
-      {
-        "id": 1,
-        "title": "Fluorescent Signal Normalization",
-        "description": "A web app that streamlines analysis of fluorescent signal data from Excel files. It transposes raw plate or well-based layouts into a consistent format, applies normalization, and generates summary statistics and tables ready for direct import into Prism for graphing and further analysis.",
-        "technologies": ["Python", "pandas", "openpyxl", "Node.js", "React"],
-        "links": {
-            "github": "https://github.com/jordanchen321/fluorescent-signal-normalization",
-            "demo": null,
-            "website": null,
-            "documentation": null
-        },
-        "image": "/images/Fluorescent-signal-normalization-image.png",
-        "status": "Feburary 2026"
+    {
+      "id": 1,
+      "title": "No Code EDA",
+      "bulletPoints": [
+        "Redesigned the data analysis workflow with AI assisted human computer interaction principles.",
+        "So users can sort, filter, reorder, and visualize datasets through natural language with an AI assistant.",
+        "Full stack work with Next.js, FastAPI, and OpenAPI to connect chatbots to EDA tool calls.",
+        "Integrated the Meridian package to data bind CSV data with visualizations.",
+        "Built isolated, version controlled analysis environments for collaborative EDA similar to Google Docs."
+      ],
+      "technologies": ["HCI", "Next.js", "FastAPI", "OpenAPI", "Meridian", "Python"],
+      "links": {
+        "github": null,
+        "demo": null,
+        "website": null,
+        "documentation": null
+      },
+      "image": "/images/no-code-EDA-research-image.png",
+      "status": null
     },
     {
-        "id": 2,
-        "title": "Ecommerce Dashboard",
-        "description": "An ecommerce dashboard project that aims to make the functionalities of Excel portable on a mobile device. Built with Next.js frontend, MongoDB backend, and integrated Google Authentication system for secure user access.",
-        "technologies": ["Next.js", "MongoDB", "Google Authentication", "React", "TypeScript"],
-        "links": {
-            "github": "https://github.com/jordanchen321/ecommerce-dashboard",
-            "demo": "https://ecommerce-dashboard-phi-five.vercel.app/",
-            "website": null,
-            "documentation": null
-        },
-        "image": "/images/Ecommerce-dashboard-image.png",
-        "status": "January 2026"
-    }, 
+      "id": 2,
+      "title": "DeckScan",
+      "bulletPoints": [
+        "Computer vision application that automatically scans and reconstructs poker card orderings, increasing data collection efficiency by about 3x.",
+        "Processed and analyzed 600+ wash shuffle trials to build large scale datasets for probabilistic modeling and statistical analysis.",
+        "Next.js and Python tie image capture to batch inference and structured CSV exports so trial runs stay organized and reproducible."
+      ],
+      "technologies": ["Computer Vision", "Next.js", "Python", "CSV"],
+      "links": {
+        "github": null,
+        "demo": null,
+        "website": null,
+        "documentation": null
+      },
+      "image": null,
+      "status": null
+    },
     {
-        "id": 3,
-        "title": "CrunchyRoll Award Data Analysis",
-        "description": "Collected, cleaned, and wrangled multiple data frames. Analyzed relationships between factors (total views, genre, manga sales). Created a predictive model with data visualization.",
-        "technologies": ["Python", "Pandas", "NumPy", "Matplotlib", "Data Analysis"],
-        "links": {
-            "github": "https://github.com/jordanchen321/CrunchyRoll-Award-Factor-Analysis",
-            "demo": null,
-            "website": null,
-            "documentation": null
-        },
-        "image": "/images/Crunchyroll-project-image.png",
-        "status": "September 2025"
-      }
+      "id": 3,
+      "title": "Signal Normalization",
+      "bulletPoints": [
+        "Web app with React and Node.js that processes fluorescent signal Excel data, turning raw plate and well layouts into a standardized format and cutting manual preprocessing time by about 50%.",
+        "Python pipelines with pandas and openpyxl normalize uploaded datasets for consistent scaling.",
+        "Automated summary statistics and structured tables enable direct import into GraphPad Prism and faster downstream analysis."
+      ],
+      "technologies": ["Excel", "pandas", "openpyxl", "Node.js", "React"],
+      "links": {
+        "github": "https://github.com/jordanchen321/fluorescent-signal-normalization",
+        "demo": null,
+        "website": null,
+        "documentation": null
+      },
+      "image": "/images/Fluorescent-signal-normalization-image.png",
+      "status": null
+    },
+    {
+      "id": 4,
+      "title": "Ecommerce Dashboard",
+      "bulletPoints": [
+        "Ecommerce dashboard that brings spreadsheet style workflows to a mobile first experience.",
+        "Next.js frontend, MongoDB backend, and Google Authentication for secure user access.",
+        "Product, order, and reporting views tailored for small business style operations."
+      ],
+      "technologies": ["Next.js", "MongoDB", "Google Authentication", "React", "TypeScript"],
+      "links": {
+        "github": "https://github.com/jordanchen321/ecommerce-dashboard",
+        "demo": "https://ecommerce-dashboard-phi-five.vercel.app/",
+        "website": null,
+        "documentation": null
+      },
+      "image": "/images/Ecommerce-dashboard-image.png",
+      "status": null
+    },
+    {
+      "id": 5,
+      "title": "CrunchyRoll Award Data Analysis",
+      "bulletPoints": [
+        "Collected, cleaned, and wrangled multiple data frames from award and viewership sources.",
+        "Analyzed relationships between total views, genre, manga sales, and related factors.",
+        "Built a predictive model with data visualization to summarize patterns in the dataset."
+      ],
+      "technologies": ["Python", "Pandas", "NumPy", "Matplotlib", "Data Analysis"],
+      "links": {
+        "github": "https://github.com/jordanchen321/CrunchyRoll-Award-Factor-Analysis",
+        "demo": null,
+        "website": null,
+        "documentation": null
+      },
+      "image": "/images/Crunchyroll-project-image.png",
+      "status": null
+    }
   ]
 }

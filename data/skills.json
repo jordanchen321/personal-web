@@ -1,8 +1,7 @@
 {
   "skills": {
-    "Languages": ["Python", "Java", "HTML", "CSS", "Javascript", "R"],
-    "Frameworks": ["React", "Next.js", "Tailwind"],
-    "Developer Tools": ["Git", "Github", "VS Code", "Jupyter Notebook", "MATLAB"],
-    "Libraries": ["Pandas", "NumPy", "Matplotlib", "Seaborn"]
+    "Languages": ["Python", "Java", "JavaScript", "SQL", "HTML/CSS", "R", "C"],
+    "Frameworks": ["React", "Next.js", "FastAPI", "Tailwind CSS", "OpenAPI", "Node.js"],
+    "Libraries & tools": ["Pandas", "NumPy", "Matplotlib", "Seaborn", "OpenCV", "Git", "Prism"]
   }
 }
