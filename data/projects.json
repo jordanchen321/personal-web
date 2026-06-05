@@ -4,13 +4,13 @@
       "id": 1,
       "title": "No Code EDA",
       "bulletPoints": [
-        "Redesigned the data analysis workflow with AI assisted human computer interaction principles.",
-        "So users can sort, filter, reorder, and visualize datasets through natural language with an AI assistant.",
-        "Full stack work with Next.js, FastAPI, and OpenAPI to connect chatbots to EDA tool calls.",
-        "Integrated the Meridian package to data bind CSV data with visualizations.",
-        "Built isolated, version controlled analysis environments for collaborative EDA similar to Google Docs."
+        "Redesigned the data analysis workflow with AI assisted human computer interaction (HCI) principles.",
+        "Enabling users to sort, filter, reorder, and visualize datasets through natural language interaction with an AI assistant.",
+        "Full stack development using Next.js, FastAPI, and OpenAPI to connect chatbots with EDA tool calls.",
+        "Integrated the Meridian package (UCSD developer package) to data bind CSV data with visualizations.",
+        "Built isolated, version controlled analysis environments for collaborative EDA workflows similar to Google Docs."
       ],
-      "technologies": ["HCI", "Next.js", "FastAPI", "OpenAPI", "Meridian", "Python"],
+      "technologies": ["Python", "Next.js", "HCI", "FastAPI", "OpenAPI", "Meridian"],
       "links": {
         "github": null,
         "demo": null,
@@ -24,8 +24,8 @@
       "id": 2,
       "title": "DeckScan",
       "bulletPoints": [
-        "Computer vision application that automatically scans and reconstructs poker card orderings, increasing data collection efficiency by about 3x.",
-        "Processed and analyzed 600+ wash shuffle trials to build large scale datasets for probabilistic modeling and statistical analysis.",
+        "Developed a computer vision application to automatically scan and reconstruct poker card orderings, increasing data collection efficiency by about 3x.",
+        "Processed and analyzed 600+ wash shuffle trials using DeckScan, generating large scale datasets for probabilistic modeling and statistical analysis.",
         "Next.js and Python tie image capture to batch inference and structured CSV exports so trial runs stay organized and reproducible."
       ],
       "technologies": ["Computer Vision", "Next.js", "Python", "CSV"],

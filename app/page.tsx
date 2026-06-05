@@ -309,8 +309,8 @@ export default function Home() {
               <div className="space-y-3 text-gray-200 leading-relaxed">
                 <p>
                   I&apos;m a student at the{" "}
-                  <strong>University of California San Diego</strong> (expected{" "}
-                  <strong>June 2028</strong>) pursuing a{" "}
+                  <strong>University of California San Diego</strong>, La Jolla, CA
+                  (expected <strong>June 2028</strong>) pursuing a{" "}
                   <strong>B.S. in Mathematics Computer Science</strong> with minors in{" "}
                   <strong>Data Science</strong> and <strong>Cognitive Science</strong>.
                 </p>

@@ -2,33 +2,43 @@
   "roles": [
     {
       "id": 1,
+      "title": "Software Engineer Intern",
+      "organization": "Unicircle",
+      "location": "San Diego, CA",
+      "startDate": "June 2026",
+      "endDate": "Present",
+      "isCurrent": true,
+      "description": "Built full stack recruitment management features in Next.js, supporting applicant tracking, interview workflows, and organizational recruitment operations. Engineered candidate filtering and search functionality to streamline applicant review and improve recruiter decision making efficiency. Collaborated with a cross functional development team using Git version control to deliver scalable web application features in a production environment."
+    },
+    {
+      "id": 2,
       "title": "Software Developer Intern",
       "organization": "UCSD Design Lab",
       "location": "San Diego, CA",
       "startDate": "November 2025",
       "endDate": "Present",
       "isCurrent": true,
-      "description": "Packaged an AI assisted chatbot component for easier installation within the Meridian npm package (UCSD developer package). Developed prompt engineering and Python tooling so Meridian users can dynamically generate customized UI components from chat prompts. Built full stack demo applications integrating Meridian with React and Next.js to exercise data binding and custom UI generation. Contributed developer feedback in design meetings that shaped upcoming Meridian features."
+      "description": "Packaged an AI assisted chatbot component for easier installation within the Meridian npm package (UCSD developer package). Developed prompt engineering and Python tooling workflows enabling Meridian users to dynamically generate customized UI components from chat prompts. Created full stack applications integrating Meridian into React and Next.js to test data binding and custom UI generation. Contributed developer feedback in design meetings that shaped upcoming Meridian features."
     },
     {
-      "id": 2,
+      "id": 3,
       "title": "Data Analyst Intern",
       "organization": "Sanford Burnham Prebys",
       "location": "San Diego, CA",
       "startDate": "January 2026",
-      "endDate": "Present",
-      "isCurrent": true,
-      "description": "Integrated data visualization into an existing Python pipeline for graphical views of neural signals. Processed gigabytes of neural data through MEAnap, oscillation, and spike sorting workflows. Built a Next.js application that converts raw data into processed outputs formatted for roughly 2x faster analysis in Prism. Used Prism for two-way ANOVA graphs. Debugged and set up virtual environments so colleagues can run processing scripts reliably."
+      "endDate": "May 2026",
+      "isCurrent": false,
+      "description": "Integrated data visualization steps into an existing Python script to generate graphical representations of neural signals. Processed gigabytes of neural data through MEAnap, oscillation, and spike sorting workflows. Built a Next.js application to convert raw data into processed outputs formatted for roughly 2x efficiency for analysis in Prism. Used Prism to generate two way ANOVA graphs for data analysis."
     },
     {
-      "id": 3,
+      "id": 4,
       "title": "Programming Instructor & Event Coordinator",
       "organization": "NGYL",
       "location": "Jericho, NY",
       "startDate": "January 2022",
       "endDate": "June 2025",
       "isCurrent": false,
-      "description": "Built the NGYL website with HTML, CSS, and JavaScript to grow awareness, roughly double volunteer sign ups, and support mission and event communication. Organized a STEM career seminar with four industry professionals and over 200 participants. Taught 300+ students across Python, drone robotics, Lego robotics, and machine learning."
+      "description": "Created the NGYL website with HTML, CSS, and JavaScript to increase organizational awareness, roughly double volunteer sign ups, and provide a communication platform for organization missions and events. Organized and invited four industry professionals for a STEM career seminar with over 200 participants. Taught 300+ students in Python, drone robotics, Lego robotics, and machine learning."
     }
   ]
 }
