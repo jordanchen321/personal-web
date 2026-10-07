@@ -4,13 +4,13 @@
       "id": 1,
       "title": "No Code EDA",
       "bulletPoints": [
-        "Redesigned the data analysis workflow with AI assisted human computer interaction (HCI) principles.",
-        "Enabling users to sort, filter, reorder, and visualize datasets through natural language interaction with an AI assistant.",
-        "Full stack development using Next.js, FastAPI, and OpenAPI to connect chatbots with EDA tool calls.",
-        "Integrated the Meridian package (UCSD developer package) to data bind CSV data with visualizations.",
-        "Built isolated, version controlled analysis environments for collaborative EDA workflows similar to Google Docs."
+        "Built a full stack AI analytics web app to explore datasets up to 25 GB and create charts in plain English.",
+        "Designed REST APIs in FastAPI that let the React front end run data analysis workflows on demand.",
+        "Scaled to concurrent users by containerizing each workspace with Docker in an isolated, reproducible environment.",
+        "Redesigned the data analysis workflow with AI assisted human computer interaction (HCI) principles, letting users sort, filter, reorder, and visualize datasets through natural language.",
+        "Integrated the Meridian package (UCSD developer package) to data bind CSV data with visualizations."
       ],
-      "technologies": ["Python", "Next.js", "HCI", "FastAPI", "OpenAPI", "Meridian"],
+      "technologies": ["Next.js", "React", "Python", "FastAPI", "Docker", "OpenAPI"],
       "links": {
         "github": null,
         "demo": null,
@@ -22,13 +22,31 @@
     },
     {
       "id": 2,
-      "title": "DeckScan",
+      "title": "Ecommerce Dashboard",
       "bulletPoints": [
-        "Developed a computer vision application to automatically scan and reconstruct poker card orderings, increasing data collection efficiency by about 3x.",
-        "Processed and analyzed 600+ wash shuffle trials using DeckScan, generating large scale datasets for probabilistic modeling and statistical analysis.",
-        "Next.js and Python tie image capture to batch inference and structured CSV exports so trial runs stay organized and reproducible."
+        "Shipped a React/TypeScript dashboard with NextAuth login, deployed on Vercel.",
+        "Synced per user data across devices via Firestore (NoSQL), using debounced writes to cut redundant saves.",
+        "Brought spreadsheet style workflows to a mobile first experience, with product, order, and reporting views tailored for small business style operations."
       ],
-      "technologies": ["Computer Vision", "Next.js", "Python", "CSV"],
+      "technologies": ["Next.js", "React", "TypeScript", "NextAuth", "Firebase Firestore", "Vercel"],
+      "links": {
+        "github": "https://github.com/jordanchen321/ecommerce-dashboard",
+        "demo": "https://ecommerce-dashboard-phi-five.vercel.app/",
+        "website": null,
+        "documentation": null
+      },
+      "image": "/images/Ecommerce-dashboard-image.png",
+      "status": null
+    },
+    {
+      "id": 3,
+      "title": "DeckScan & Wash Shuffle Research",
+      "bulletPoints": [
+        "Tripled data collection efficiency with a web app that reads deck orderings from photos (with Prof. Peter Chi).",
+        "Connected Next.js image capture to a Python batch inference backend with CSV export across 600+ trials.",
+        "Generated large scale datasets from wash shuffle trials for probabilistic modeling and statistical analysis."
+      ],
+      "technologies": ["Next.js", "Python", "OpenCV", "Computer Vision"],
       "links": {
         "github": null,
         "demo": null,
@@ -39,14 +57,14 @@
       "status": null
     },
     {
-      "id": 3,
-      "title": "Signal Normalization",
+      "id": 4,
+      "title": "Signal Normalizer",
       "bulletPoints": [
-        "Web app with React and Node.js that processes fluorescent signal Excel data, turning raw plate and well layouts into a standardized format and cutting manual preprocessing time by about 50%.",
-        "Python pipelines with pandas and openpyxl normalize uploaded datasets for consistent scaling.",
-        "Automated summary statistics and structured tables enable direct import into GraphPad Prism and faster downstream analysis."
+        "Halved manual preprocessing time with a full stack web app that automates fluorescence signal processing.",
+        "Built a React upload and review front end backed by a Node.js service that runs Python normalization jobs.",
+        "Python pipelines with pandas and openpyxl normalize uploaded datasets for consistent scaling, with structured tables ready for direct import into GraphPad Prism."
       ],
-      "technologies": ["Excel", "pandas", "openpyxl", "Node.js", "React"],
+      "technologies": ["React", "Node.js", "Python", "Pandas", "OpenPyXL"],
       "links": {
         "github": "https://github.com/jordanchen321/fluorescent-signal-normalization",
         "demo": null,
@@ -54,24 +72,6 @@
         "documentation": null
       },
       "image": "/images/Fluorescent-signal-normalization-image.png",
-      "status": null
-    },
-    {
-      "id": 4,
-      "title": "Ecommerce Dashboard",
-      "bulletPoints": [
-        "Ecommerce dashboard that brings spreadsheet style workflows to a mobile first experience.",
-        "Next.js frontend, MongoDB backend, and Google Authentication for secure user access.",
-        "Product, order, and reporting views tailored for small business style operations."
-      ],
-      "technologies": ["Next.js", "MongoDB", "Google Authentication", "React", "TypeScript"],
-      "links": {
-        "github": "https://github.com/jordanchen321/ecommerce-dashboard",
-        "demo": "https://ecommerce-dashboard-phi-five.vercel.app/",
-        "website": null,
-        "documentation": null
-      },
-      "image": "/images/Ecommerce-dashboard-image.png",
       "status": null
     },
     {

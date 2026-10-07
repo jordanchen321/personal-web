@@ -2,6 +2,26 @@
   "roles": [
     {
       "id": 1,
+      "title": "AI Automation Software Engineer Intern",
+      "organization": "Allied Legacy Partners",
+      "location": "San Diego, CA",
+      "startDate": "September 2026",
+      "endDate": "Present",
+      "isCurrent": true,
+      "description": "Built web dashboards and UI that use LLMs to turn meeting transcripts into action items for the team. Designed, developed, and deployed a Python backend service (Slack bot) that automates calendar, email, and file tasks. Turned free form user requests into JSON commands via LLM APIs, each routed to a Playwright automation, and raised reliability by validating every LLM generated command against a schema before it could touch live systems. Migrated legacy data to PostgreSQL (Supabase), redesigning schemas to speed up queries across 5+ systems."
+    },
+    {
+      "id": 2,
+      "title": "Instructional Assistant, DSC 10 (Principles of Data Science)",
+      "organization": "UC San Diego, Halıcıoğlu Data Science Institute",
+      "location": "La Jolla, CA",
+      "startDate": "Fall 2026",
+      "endDate": "Present",
+      "isCurrent": true,
+      "description": "Help students debug Python one on one, grade assignments, and help lead discussion sections. Lead a study and social group for DSC 10 students, reviewing course material and building community."
+    },
+    {
+      "id": 3,
       "title": "Software Engineer Intern",
       "organization": "Unicircle",
       "location": "San Diego, CA",
@@ -11,27 +31,27 @@
       "description": "Built full stack recruitment management features in Next.js, supporting applicant tracking, interview workflows, and organizational recruitment operations. Engineered candidate filtering and search functionality to streamline applicant review and improve recruiter decision making efficiency. Collaborated with a cross functional development team using Git version control to deliver scalable web application features in a production environment."
     },
     {
-      "id": 2,
-      "title": "Software Developer Intern",
-      "organization": "UCSD Design Lab",
+      "id": 4,
+      "title": "Full Stack Software Engineer Intern (Part-time)",
+      "organization": "UCSD Foundation Interface Lab",
       "location": "San Diego, CA",
-      "startDate": "November 2025",
-      "endDate": "Present",
-      "isCurrent": true,
-      "description": "Packaged an AI assisted chatbot component for easier installation within the Meridian npm package (UCSD developer package). Developed prompt engineering and Python tooling workflows enabling Meridian users to dynamically generate customized UI components from chat prompts. Created full stack applications integrating Meridian into React and Next.js to test data binding and custom UI generation. Contributed developer feedback in design meetings that shaped upcoming Meridian features."
+      "startDate": "June 2025",
+      "endDate": "September 2026",
+      "isCurrent": false,
+      "description": "Built the AI chatbot system for Meridian, the lab's npm package that adds AI analytics to any web app. Engineered a prompt to JSON schema layer so the AI renders the best fit front end UI per request. Tested UI generation and data binding end to end in a React, Next.js, and TypeScript app before each release. Worked with product designers and engineers in design meetings to turn user needs into shipped Meridian features."
     },
     {
-      "id": 3,
-      "title": "Data Analyst Intern",
+      "id": 5,
+      "title": "Python Software Developer Intern (Part-time)",
       "organization": "Sanford Burnham Prebys",
       "location": "San Diego, CA",
       "startDate": "January 2026",
       "endDate": "May 2026",
       "isCurrent": false,
-      "description": "Integrated data visualization steps into an existing Python script to generate graphical representations of neural signals. Processed gigabytes of neural data through MEAnap, oscillation, and spike sorting workflows. Built a Next.js application to convert raw data into processed outputs formatted for roughly 2x efficiency for analysis in Prism. Used Prism to generate two way ANOVA graphs for data analysis."
+      "description": "Built Next.js web apps that made data input and output intuitive for researchers, translating lab requirements into UI. Halved data prep time with a web tool converting raw lab output into ready to analyze GraphPad Prism datasets. Cut neural signal analysis time over 6x (1 hour to under 10 minutes) with automated Python pipelines on gigabytes of data."
     },
     {
-      "id": 4,
+      "id": 6,
       "title": "Programming Instructor & Event Coordinator",
       "organization": "NGYL",
       "location": "Jericho, NY",

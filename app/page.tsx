@@ -312,12 +312,15 @@ export default function Home() {
                   <strong>University of California San Diego</strong>, La Jolla, CA
                   (expected <strong>June 2028</strong>) pursuing a{" "}
                   <strong>B.S. in Mathematics Computer Science</strong> with minors in{" "}
-                  <strong>Data Science</strong> and <strong>Cognitive Science</strong>.
+                  <strong>Data Science</strong> and <strong>Cognitive Science</strong>{" "}
+                  (GPA <strong>3.9</strong>). Relevant coursework includes Advanced Data
+                  Structures (C++), Systems Programming (C, GDB), and Numerical Linear Algebra.
                 </p>
                 <p>
-                  I work at the intersection of full stack development, data visualization,
-                  and human computer interaction, with interests in AI tooling, computer vision,
-                  and statistical modeling.
+                  I work at the intersection of full stack development, AI tooling, and
+                  automation, building LLM powered web apps and backend services, with
+                  interests in human computer interaction, computer vision, and statistical
+                  modeling.
                 </p>
               </div>
             </div>
