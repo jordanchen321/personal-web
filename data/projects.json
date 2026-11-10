@@ -4,13 +4,23 @@
       "id": 1,
       "title": "No Code EDA",
       "bulletPoints": [
-        "Built a full stack AI analytics web app to explore datasets up to 25 GB and create charts in plain English.",
-        "Designed REST APIs in FastAPI that let the React front end run data analysis workflows on demand.",
-        "Scaled to concurrent users by containerizing each workspace with Docker in an isolated, reproducible environment.",
-        "Redesigned the data analysis workflow with AI assisted human computer interaction (HCI) principles, letting users sort, filter, reorder, and visualize datasets through natural language.",
-        "Integrated the Meridian package (UCSD developer package) to data bind CSV data with visualizations."
+        "Created a full-stack web app where people with no coding background can explore a dataset by asking questions in plain English.",
+        "Designed a FastAPI REST API backend that turns those questions into SQL and Python analysis, served to a Next.js/React frontend.",
+        "Generated a tailored analysis UI for each request with Meridian, testing its data binding on real datasets.",
+        "Validated every generated query so bad input shows an error instead of crashing the app.",
+        "Containerized the app with Docker and documented it with a README and API docs so anyone can set it up."
       ],
-      "technologies": ["Next.js", "React", "Python", "FastAPI", "Docker", "OpenAPI"],
+      "technologies": [
+        "TypeScript",
+        "React",
+        "Next.js",
+        "Python",
+        "FastAPI",
+        "SQL",
+        "Pandas",
+        "Docker",
+        "LLM APIs"
+      ],
       "links": {
         "github": null,
         "demo": null,
@@ -28,7 +38,14 @@
         "Synced per user data across devices via Firestore (NoSQL), using debounced writes to cut redundant saves.",
         "Brought spreadsheet style workflows to a mobile first experience, with product, order, and reporting views tailored for small business style operations."
       ],
-      "technologies": ["Next.js", "React", "TypeScript", "NextAuth", "Firebase Firestore", "Vercel"],
+      "technologies": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "NextAuth",
+        "Firebase Firestore",
+        "Vercel"
+      ],
       "links": {
         "github": "https://github.com/jordanchen321/ecommerce-dashboard",
         "demo": "https://ecommerce-dashboard-phi-five.vercel.app/",
@@ -40,13 +57,17 @@
     },
     {
       "id": 3,
-      "title": "DeckScan & Wash Shuffle Research",
+      "title": "Wash Shuffle Modeling (w/ Prof. Peter Chi)",
       "bulletPoints": [
-        "Tripled data collection efficiency with a web app that reads deck orderings from photos (with Prof. Peter Chi).",
-        "Connected Next.js image capture to a Python batch inference backend with CSV export across 600+ trials.",
-        "Generated large scale datasets from wash shuffle trials for probabilistic modeling and statistical analysis."
+        "Engineered a machine learning computer vision tool that recognizes each card on camera, replacing manual data entry.",
+        "Built the data pipeline that stores 600+ recorded shuffles for statistical models of the wash shuffle."
       ],
-      "technologies": ["Next.js", "Python", "OpenCV", "Computer Vision"],
+      "technologies": [
+        "Python",
+        "OpenCV",
+        "NumPy",
+        "Machine Learning"
+      ],
       "links": {
         "github": null,
         "demo": null,
@@ -64,7 +85,13 @@
         "Built a React upload and review front end backed by a Node.js service that runs Python normalization jobs.",
         "Python pipelines with pandas and openpyxl normalize uploaded datasets for consistent scaling, with structured tables ready for direct import into GraphPad Prism."
       ],
-      "technologies": ["React", "Node.js", "Python", "Pandas", "OpenPyXL"],
+      "technologies": [
+        "React",
+        "Node.js",
+        "Python",
+        "Pandas",
+        "OpenPyXL"
+      ],
       "links": {
         "github": "https://github.com/jordanchen321/fluorescent-signal-normalization",
         "demo": null,
@@ -82,7 +109,13 @@
         "Analyzed relationships between total views, genre, manga sales, and related factors.",
         "Built a predictive model with data visualization to summarize patterns in the dataset."
       ],
-      "technologies": ["Python", "Pandas", "NumPy", "Matplotlib", "Data Analysis"],
+      "technologies": [
+        "Python",
+        "Pandas",
+        "NumPy",
+        "Matplotlib",
+        "Data Analysis"
+      ],
       "links": {
         "github": "https://github.com/jordanchen321/CrunchyRoll-Award-Factor-Analysis",
         "demo": null,

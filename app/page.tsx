@@ -311,16 +311,18 @@ export default function Home() {
                   I&apos;m a student at the{" "}
                   <strong>University of California San Diego</strong>, La Jolla, CA
                   (expected <strong>June 2028</strong>) pursuing a{" "}
-                  <strong>B.S. in Mathematics Computer Science</strong> with minors in{" "}
-                  <strong>Data Science</strong> and <strong>Cognitive Science</strong>{" "}
-                  (GPA <strong>3.9</strong>). Relevant coursework includes Advanced Data
-                  Structures (C++), Systems Programming (C, GDB), and Numerical Linear Algebra.
+                  <strong>B.S. in Mathematics-Computer Science</strong> with a minor in{" "}
+                  <strong>Cognitive Science</strong> (GPA <strong>3.84</strong>). Relevant
+                  coursework includes Data Structures &amp; Algorithms (C++), Object-Oriented
+                  Programming, Systems Programming (C), and Machine Learning.
                 </p>
                 <p>
-                  I work at the intersection of full stack development, AI tooling, and
-                  automation, building LLM powered web apps and backend services, with
-                  interests in human computer interaction, computer vision, and statistical
-                  modeling.
+                  I build <strong>full-stack</strong> web apps with React and TypeScript on
+                  Python backends, <strong>AI</strong> tools powered by LLM APIs, and{" "}
+                  <strong>data science</strong> pipelines that turn raw data into results people
+                  can act on. Recent work includes an AI chatbot that turns plain requests into
+                  UI, LLM automations that save my team hours each week, and a neural-signal
+                  pipeline I made 2× faster for researchers.
                 </p>
               </div>
             </div>

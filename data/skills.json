@@ -1,9 +1,45 @@
 {
   "skills": {
-    "Languages": ["JavaScript", "TypeScript", "Python", "Java", "C++", "C", "SQL", "HTML/CSS"],
-    "Front end": ["React", "Next.js", "Responsive UI", "NextAuth", "Tailwind CSS", "Vercel"],
-    "Back end & data": ["Node.js", "FastAPI", "REST APIs", "PostgreSQL", "Schema Design", "Firebase Firestore (NoSQL)"],
-    "Engineering practice": ["Data Structures & Algorithms", "Unit Testing", "Code Reviews", "Git", "Docker", "Linux", "CI/CD"],
-    "AI & automation": ["LLM API Integration", "AI Output Validation", "n8n", "Playwright", "OpenCV"]
+    "Languages": [
+      "Python",
+      "TypeScript",
+      "JavaScript",
+      "SQL",
+      "Java",
+      "C++",
+      "C",
+      "HTML/CSS"
+    ],
+    "Full stack": [
+      "React",
+      "Next.js",
+      "Node.js",
+      "FastAPI",
+      "REST APIs",
+      "Docker",
+      "AWS"
+    ],
+    "AI": [
+      "LLM APIs",
+      "AI Agents",
+      "n8n"
+    ],
+    "Data science": [
+      "Pandas",
+      "NumPy",
+      "OpenCV"
+    ],
+    "Engineering practice": [
+      "Git",
+      "GitHub",
+      "Unit Testing",
+      "Code Review",
+      "Debugging",
+      "Design Patterns",
+      "OOP",
+      "Data Structures",
+      "Algorithms",
+      "Agile/Scrum"
+    ]
   }
 }

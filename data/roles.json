@@ -2,63 +2,53 @@
   "roles": [
     {
       "id": 1,
-      "title": "AI Automation Software Engineer Intern",
+      "title": "Software Engineer Intern (AI Automation)",
       "organization": "Allied Legacy Partners",
       "location": "San Diego, CA",
       "startDate": "September 2026",
       "endDate": "Present",
       "isCurrent": true,
-      "description": "Built web dashboards and UI that use LLMs to turn meeting transcripts into action items for the team. Designed, developed, and deployed a Python backend service (Slack bot) that automates calendar, email, and file tasks. Turned free form user requests into JSON commands via LLM APIs, each routed to a Playwright automation, and raised reliability by validating every LLM generated command against a schema before it could touch live systems. Migrated legacy data to PostgreSQL (Supabase), redesigning schemas to speed up queries across 5+ systems."
+      "description": "Built full-stack dashboards and Python LLM workflows (n8n) that read meeting transcripts and pull out the action items, automating follow-ups. Integrated automations with outside apps through REST APIs, replacing tasks the team did by hand every week. Developing a backend service that turns incoming emails into structured JSON that internal tools can search. Designed checks and a human review step so AI output is accurate before anyone relies on it, and scoped each tool with the coworkers who use it, turning manual processes into automations that save hours each week."
     },
     {
       "id": 2,
       "title": "Instructional Assistant, DSC 10 (Principles of Data Science)",
       "organization": "UC San Diego, Halıcıoğlu Data Science Institute",
       "location": "La Jolla, CA",
-      "startDate": "Fall 2026",
+      "startDate": "September 2026",
       "endDate": "Present",
       "isCurrent": true,
-      "description": "Help students debug Python one on one, grade assignments, and help lead discussion sections. Lead a study and social group for DSC 10 students, reviewing course material and building community."
+      "description": "Coach students one on one through debugging their Python data analysis code, and grade assignments. Contributed to the course's grade report tool, which pulls scores from several sources so students can track their grades. Lead a DSC 10 study group, breaking probability and data science ideas into simple steps."
     },
     {
       "id": 3,
-      "title": "Software Engineer Intern",
-      "organization": "Unicircle",
-      "location": "San Diego, CA",
-      "startDate": "June 2026",
-      "endDate": "Present",
-      "isCurrent": true,
-      "description": "Built full stack recruitment management features in Next.js, supporting applicant tracking, interview workflows, and organizational recruitment operations. Engineered candidate filtering and search functionality to streamline applicant review and improve recruiter decision making efficiency. Collaborated with a cross functional development team using Git version control to deliver scalable web application features in a production environment."
-    },
-    {
-      "id": 4,
-      "title": "Full Stack Software Engineer Intern (Part-time)",
-      "organization": "UCSD Foundation Interface Lab",
+      "title": "Full Stack Software Developer (Part-time)",
+      "organization": "UCSD Foundation Interface Lab (Prof. Haijun Xia)",
       "location": "San Diego, CA",
       "startDate": "June 2025",
       "endDate": "September 2026",
       "isCurrent": false,
-      "description": "Built the AI chatbot system for Meridian, the lab's npm package that adds AI analytics to any web app. Engineered a prompt to JSON schema layer so the AI renders the best fit front end UI per request. Tested UI generation and data binding end to end in a React, Next.js, and TypeScript app before each release. Worked with product designers and engineers in design meetings to turn user needs into shipped Meridian features."
+      "description": "Developed a TypeScript AI chatbot for the lab's Meridian app that turns a user's plain request into on-screen UI, and packaged it as its own npm component so other projects can plug it in quickly. Benchmarked AI models on how well they generate UI and used the results to choose the production model. Engineered prompt rules that check what the user is asking for, so the AI skips off-topic or unsafe requests. Wrote unit tests for the app's data binding and UI generation, catching bugs before features reached users, and collaborated with researchers through Git and code reviews."
     },
     {
-      "id": 5,
-      "title": "Python Software Developer Intern (Part-time)",
+      "id": 4,
+      "title": "Software Developer Intern (Part-time)",
       "organization": "Sanford Burnham Prebys",
       "location": "San Diego, CA",
       "startDate": "January 2026",
       "endDate": "May 2026",
       "isCurrent": false,
-      "description": "Built Next.js web apps that made data input and output intuitive for researchers, translating lab requirements into UI. Halved data prep time with a web tool converting raw lab output into ready to analyze GraphPad Prism datasets. Cut neural signal analysis time over 6x (1 hour to under 10 minutes) with automated Python pipelines on gigabytes of data."
+      "description": "Rewrote a Python neural-signal analysis pipeline with better data structures, making analysis 2× faster. Created Next.js full-stack apps so researchers with no coding experience could enter data and read the results. Analyzed and visualized large neural datasets with Pandas and NumPy, giving researchers results they could act on."
     },
     {
-      "id": 6,
-      "title": "Programming Instructor & Event Coordinator",
-      "organization": "NGYL",
+      "id": 5,
+      "title": "Founder, Programming Instructor & Web Developer",
+      "organization": "NGYL (STEM Education Nonprofit)",
       "location": "Jericho, NY",
       "startDate": "January 2022",
       "endDate": "June 2025",
       "isCurrent": false,
-      "description": "Created the NGYL website with HTML, CSS, and JavaScript to increase organizational awareness, roughly double volunteer sign ups, and provide a communication platform for organization missions and events. Organized and invited four industry professionals for a STEM career seminar with over 200 participants. Taught 300+ students in Python, drone robotics, Lego robotics, and machine learning."
+      "description": "Taught Python to 300+ students in underserved communities and built the nonprofit's website, which doubled volunteer sign-ups."
     }
   ]
 }

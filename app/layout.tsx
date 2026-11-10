@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Jordan Chen",
-  description: "Personal academic profile",
+  description: "Jordan Chen — full-stack, AI, and data science developer",
 };
 
 export default function RootLayout({
