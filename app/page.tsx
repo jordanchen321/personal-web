@@ -23,6 +23,7 @@ const ExternalLinkIcon = () => (
 );
 
 const PROJECTS_PER_PAGE = 3;
+const ROLES_VISIBLE = 3;
 
 function ProjectSlotPlaceholder() {
   return (
@@ -177,6 +178,50 @@ export default function Home() {
     const start = projectPage * PROJECTS_PER_PAGE;
     return projects.slice(start, start + PROJECTS_PER_PAGE);
   }, [projects, projectPage]);
+
+  const [showAllRoles, setShowAllRoles] = useState(false);
+  const visibleRoles = roles.slice(0, ROLES_VISIBLE);
+  const extraRoles = roles.slice(ROLES_VISIBLE);
+
+  const renderRole = (role: (typeof roles)[number]) => (
+    <div key={role.id} className="relative flex items-start">
+      {/* Timeline Dot */}
+      <div className={`absolute left-3 w-3 h-3 rounded-full border-2 border-gray-800 ${
+        role.isCurrent ? 'bg-green-500 border-green-500' : 'bg-gray-700'
+      } z-10`}></div>
+
+      {/* Content */}
+      <div className="ml-10 space-y-2">
+        <div className="flex flex-wrap items-baseline gap-2">
+          <h3 className="text-xl font-semibold">
+            <strong>{role.organization}</strong>
+          </h3>
+          {role.isCurrent && (
+            <span className="text-xs px-2 py-0.5 bg-green-500/20 text-green-400 rounded">
+              Current
+            </span>
+          )}
+        </div>
+
+        <div className="text-gray-300">
+          <span className="font-medium">{role.title}</span>
+          {role.location && (
+            <span className="text-gray-400"> · {role.location}</span>
+          )}
+        </div>
+
+        <div className="text-sm text-gray-400">
+          {role.startDate} - {role.endDate}
+        </div>
+
+        {role.description && (
+          <p className="text-gray-200 leading-relaxed mt-2">
+            {role.description}
+          </p>
+        )}
+      </div>
+    </div>
+  );
 
   return (
     <div className="min-h-screen bg-black text-white p-8 md:p-12 lg:p-16 relative">
@@ -337,47 +382,39 @@ export default function Home() {
                 
                 {/* Timeline Items */}
                 <div className="space-y-8">
-                  {roles.map((role, index) => (
-                    <div key={role.id} className="relative flex items-start">
-                      {/* Timeline Dot */}
-                      <div className={`absolute left-3 w-3 h-3 rounded-full border-2 border-gray-800 ${
-                        role.isCurrent ? 'bg-green-500 border-green-500' : 'bg-gray-700'
-                      } z-10`}></div>
-                      
-                      {/* Content */}
-                      <div className="ml-10 space-y-2">
-                        <div className="flex flex-wrap items-baseline gap-2">
-                          <h3 className="text-xl font-semibold">
-                            <strong>{role.organization}</strong>
-                          </h3>
-                          {role.isCurrent && (
-                            <span className="text-xs px-2 py-0.5 bg-green-500/20 text-green-400 rounded">
-                              Current
-                            </span>
-                          )}
-                        </div>
-                        
-                        <div className="text-gray-300">
-                          <span className="font-medium">{role.title}</span>
-                          {role.location && (
-                            <span className="text-gray-400"> · {role.location}</span>
-                          )}
-                        </div>
-                        
-                        <div className="text-sm text-gray-400">
-                          {role.startDate} - {role.endDate}
-                        </div>
-                        
-                        {role.description && (
-                          <p className="text-gray-200 leading-relaxed mt-2">
-                            {role.description}
-                          </p>
-                        )}
-                      </div>
-                    </div>
-                  ))}
+                  {visibleRoles.map(renderRole)}
                 </div>
+                {extraRoles.length > 0 && (
+                  <div
+                    className={`grid transition-[grid-template-rows] duration-300 ease-out motion-reduce:transition-none ${
+                      showAllRoles ? "grid-rows-[1fr]" : "grid-rows-[0fr]"
+                    }`}
+                  >
+                    <div className="min-h-0 overflow-hidden" aria-hidden={!showAllRoles}>
+                      <div className="space-y-8 pt-8">{extraRoles.map(renderRole)}</div>
+                    </div>
+                  </div>
+                )}
               </div>
+              {extraRoles.length > 0 && (
+                <div className="flex justify-center">
+                  <button
+                    type="button"
+                    onClick={() => setShowAllRoles((v) => !v)}
+                    aria-expanded={showAllRoles}
+                    className="group flex items-center gap-1.5 text-sm text-gray-400 transition-colors duration-200 hover:text-white"
+                  >
+                    <span className="border-b border-transparent transition-[border-color] duration-200 group-hover:border-gray-400">
+                      {showAllRoles ? "Show less" : `Show ${extraRoles.length} more`}
+                    </span>
+                    <ChevronDownIcon
+                      className={`shrink-0 transition-transform duration-300 ease-out motion-reduce:transition-none ${
+                        showAllRoles ? "rotate-180" : "rotate-0"
+                      }`}
+                    />
+                  </button>
+                </div>
+              )}
             </div>
 
             {/* Projects */}
